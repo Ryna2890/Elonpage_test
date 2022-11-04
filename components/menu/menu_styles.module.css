@@ -1,7 +1,6 @@
 .menu {
     display: flex;
     align-items: center;
-    height: 20vh;
     justify-content: space-between;
 }
 

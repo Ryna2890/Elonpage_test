@@ -21,7 +21,7 @@
 
 .benefits_type:hover {
     cursor: pointer;
-    background: rgba(245, 241, 241, 0.05);
+    background: rgba(245, 241, 241, 0.25);
 }
 
 .benefits_guarantee {
