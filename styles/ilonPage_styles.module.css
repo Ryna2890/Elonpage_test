@@ -1,0 +1,88 @@
+
+.wrapper{
+    min-height: 100vh ;
+    height: 100vh;
+    background-image: url("../public/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.layout {
+    width: 1170px;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 100px 220px 130px 1fr;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+
+.titleWrapper {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: start;
+    padding-top: 10vh;
+}
+.buttonWrapper{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: start;
+}
+
+
+.benefitsWrapper {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    align-self: end;
+    justify-self: end;
+}
+.logoWrapper{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.menuWrapper{
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+@media (max-width: 865px) {
+    .layout{
+        width: 100%;
+        padding: 20px;
+        background-image: linear-gradient(140deg, rgba(9, 9, 9, 0) 60%, rgb(0, 0, 0) 100%);;
+    }
+
+    .benefitsWrapper {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-self: start;
+        justify-self: self-end;
+    }
+    .titleWrapper{ align-self: start;
+        }
+    .buttonWrapper{
+        grid-row-start: 3;
+    }
+    .menuWrapper{
+        grid-column-start: 5;
+        grid-column-end: 8;
+        align-self: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+

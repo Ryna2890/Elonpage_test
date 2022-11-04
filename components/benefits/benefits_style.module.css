@@ -1,0 +1,49 @@
+.benefits {
+    display: grid;
+    gap: 10px;
+    color: #ffffff;
+    grid-template-rows: repeat(2, 160px);
+    grid-template-columns: repeat(2, 140px);
+}
+
+.benefits_number {
+    background: linear-gradient(123deg, rgba(9, 9, 9, 0) 60%, rgba(245, 241, 241, 0.15) 100%);
+}
+
+.benefits_type {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 1.0s ease-out;
+}
+
+.benefits_type:hover {
+    cursor: pointer;
+    background: rgba(245, 241, 241, 0.05);
+}
+
+.benefits_guarantee {
+    background: linear-gradient(238deg, rgba(9, 9, 9, 0) 60%, rgba(245, 241, 241, 0.15) 100%);
+}
+
+.benefits_present {
+    background: linear-gradient(40deg, rgba(9, 9, 9, 0) 60%, rgba(245, 241, 241, 0.15) 100%);
+}
+
+.benefits_travel {
+    background: linear-gradient(309deg, rgba(9, 9, 9, 0) 60%, rgba(245, 241, 241, 0.15) 100%);
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 100;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}

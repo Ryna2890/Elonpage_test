@@ -1,0 +1,15 @@
+.travel_button {
+    width: 181px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: 100;
+    background-image: url("/frame.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.travel_button:hover {
+    box-shadow: 0 1px 2px #ffffff;
+}

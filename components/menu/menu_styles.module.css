@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.menu_type {
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    border-bottom-color: transparent;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    transition: border-bottom-color 0.5s ease-out;
+}
+
+.menu_type:hover {
+    color: #6f6e6f;
+    border-bottom-color: #6f6e6f;
+    cursor: pointer;
+}
